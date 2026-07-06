@@ -23,14 +23,14 @@ This program allows drawing various geometric shapes.
 ## 2. WindowsFormsApplication9.cs - Solar System Simulation
 An animation demonstrating planetary motion and orbital trajectories.
 
-<img src="access/Screenshot_18.png" width="500">
+<img src="access/Screenshot_18.png" width="800">
 
 ---
 
 ## 3. WindowsFormsApp5.cs - Star Shape Generator
 A tool for generating multi-pointed star shapes based on coordinate parameters.
 
-<img src="access/Screenshot_19.png" width="500">
+<img src="access/Screenshot_19.png" width="800">
 
 ---
 

@@ -9,35 +9,30 @@ This repository contains the source code for three laboratory assignments develo
 
 Dieses Repository enthält drei C#-WinForms-Anwendungen, die grundlegende Grafik- und Simulationskonzepte demonstrieren.
 
-## 1. WindowsFormsApp4.cs: Grafische Grundelemente
-Dieses Programm ermöglicht das Zeichnen und Anpassen geometrischer Formen.
+## 1. WindowsFormsApp4.cs - Graphic Primitives
+This program allows drawing various geometric shapes.
 
-### Rechtecke (Quadrate)
-Hier wird die Erstellung und Veränderung von Rechtecken gezeigt:
-* ![Quadrat](Screenshot_9.png) ![Rotes Quadrat](Screenshot_10.png) ![Helles Quadrat](Screenshot_11.png)
+### Squares and Rectangles
+<img src="access/Screenshot_9.png" width="200"> <img src="access/Screenshot_10.png" width="200"> <img src="access/Screenshot_11.png" width="200">
 
-### Kreise und Ellipsen
-Hier wird die Manipulation von Ellipsen und deren Konturen demonstriert:
-* ![Blaue Ellipse](Screenshot_12.png) ![Flache Ellipse](Screenshot_13.png) ![Kontur Ellipse](Screenshot_14.png) ![Kontur Kreis](Screenshot_15.png) ![Kreis](Screenshot_17.png)
+### Ellipses and Circles
+<img src="access/Screenshot_12.png" width="200"> <img src="access/Screenshot_13.png" width="200"> <img src="access/Screenshot_14.png" width="200"> <img src="access/Screenshot_15.png" width="200"> <img src="access/Screenshot_17.png" width="200">
 
 ---
 
-## 2. WindowsFormsApplication9.cs: Sonnensystem-Simulation
-Dieses Programm visualisiert die Bewegungsabläufe von Himmelskörpern in Echtzeit.
-* ![Sonnensystem-Simulation](Screenshot_18.png)
+## 2. WindowsFormsApplication9.cs - Solar System Simulation
+An animation demonstrating planetary motion and orbital trajectories.
+
+<img src="access/Screenshot_18.png" width="300">
 
 ---
 
-## 3. WindowsFormsApp5.cs: Stern-Generator
-Ein Werkzeug zur Generierung von komplexen Sternformen mit anpassbaren Parametern.
-* ![Stern-Generator](Screenshot_19.png)
+## 3. WindowsFormsApp5.cs - Star Shape Generator
+A tool for generating multi-pointed star shapes based on coordinate parameters.
+
+<img src="access/Screenshot_19.png" width="300">
 
 ---
-
-## Technische Details
-* **Sprache:** C#
-* **Plattform:** .NET Framework (Windows Forms)
-* **Grafik-Bibliothek:** System.Drawing
 
 ## How to use
 Each file contains the necessary logic for the respective UI forms. To run these:

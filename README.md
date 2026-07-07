@@ -6,7 +6,9 @@ This repository contains the source code for three laboratory assignments develo
 ## Project Structure
 
 | **`WindowsFormsApp4.cs`** | Graphic Primitives | An application designed for drawing various geometric shapes, including squares, rectangles, ellipses, and circles. |
+
 | **`WindowsFormsApplication9.cs`** | Solar System Simulation | An interactive animation demonstrating planetary motion and orbital trajectories. |
+
 | **`WindowsFormsApp5.cs`** | Star Shape Generator | A mathematical tool for generating multi-pointed star shapes based on coordinate parameters. |
 
 # Laboratory Course: C# Graphics and Simulation

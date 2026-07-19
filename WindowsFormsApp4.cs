@@ -8,6 +8,44 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
+/* =========================================================================
+ * 🎨 UI BUILD GUIDE
+ * =========================================================================
+ * The designer file (Form1.Designer.cs) is not included.
+ * Add the following controls to the form:
+ *
+ * 📝 TextBoxes
+ * ▪ textBox1  - Width / Size input
+ * ▪ textBox2  - Height input
+ * ▪ textBox3  - Reserved
+ * ▪ textBox4  - Reserved
+ *
+ * 🔘 Buttons
+ * ▪ button1 - Draw filled rectangle
+ * ▪ button2 - Draw filled circle
+ * ▪ button3 - Draw filled ellipse
+ * ▪ button4 - Draw rectangle outline
+ * ▪ button5 - Placeholder
+ * ▪ button6 - Draw ellipse outline
+ * ▪ button7 - Select drawing color
+ * ▪ button8 - Change Button1 background color
+ *
+ * 📦 Panel
+ * ▪ panel1 - Drawing area
+ *
+ * 🎨 Dialog
+ * ▪ colorDialog1 - Color picker
+ *
+ * ⚙ Required Events:
+ * ▪ Form.Paint
+ * ▪ textBox1-4.TextChanged
+ * ▪ button1-8.Click
+ *
+ * ✅ Use the exact control names listed above.
+ * ========================================================================= */
+
+
 // ✨⊱✥━━━━━━━━━━━━━━━━━━━━━━━━━ ❧ ☙ ━━━━━━━━━━━━━━━━━━━━━━━━━✥⊰✨
 // // Part 1: Graphic Primitives Drawing
 

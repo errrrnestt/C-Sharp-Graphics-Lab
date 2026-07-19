@@ -8,6 +8,36 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
+/* =========================================================================
+ * 🎨 UI BUILD GUIDE
+ * =========================================================================
+ * Add the following controls:
+ *
+ * 📝 TextBoxes
+ * ▪ textBox1 - Inner radius (r)
+ * ▪ textBox2 - X coordinate
+ * ▪ textBox3 - Outer radius (R)
+ * ▪ textBox4 - Vertices count (n)
+ * ▪ textBox5 - Y coordinate
+ *
+ * 🔘 Buttons
+ * ▪ button1 - Draw star/polygon
+ * ▪ button2 - Select color
+ *
+ * 📦 Panel
+ * ▪ panel1 - Drawing area
+ *
+ * 🎨 Dialog
+ * ▪ colorDialog1 - Color picker
+ *
+ * ⚙ Events:
+ * ▪ button1.Click
+ * ▪ button2.Click
+ * ▪ textBox1-5.TextChanged
+ *
+ * ========================================================================= */
+
 // ✨⊱✥━━━━━━━━━━━━━━━━━━━━━━━━━ ❧ ☙ ━━━━━━━━━━━━━━━━━━━━━━━━━✥⊰✨
 // Part 3: Star Drawing
 

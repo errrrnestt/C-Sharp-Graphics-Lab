@@ -23,7 +23,7 @@ A collection of 3 C# Windows Forms projects demonstrating GDI+ rendering, custom
 │   ├── 📄 Form1.cs              # Lab 6 Form 1
 │   ├── 📄 Form2.cs              # Lab 6 Form 2
 │   └── 📄 Form3.cs              # Lab 6 Form 3
-├── 📄 README.md                 # Project documentation
+├── 📄 README.md                 # Project documentation> ℹ️ **Note:** The original Form Designer file (`.Designer.cs`) was lost. To ensure the code runs seamlessly, step-by-step setup instructions and UI component naming requirements have been embedded directly into the `.cs` source code.
 ├── 📄 WindowsFormsApp4.cs       # Graphic Primitives
 ├── 📄 WindowsFormsApp5.cs       # Star Shape Generator
 └── 📄 WindowsFormsApplication9.cs # Solar System Simulation
@@ -59,9 +59,14 @@ A collection of 3 C# Windows Forms projects demonstrating GDI+ rendering, custom
 
 ---
 
-####  Solar System Simulation WindowsFormsApplication9.cs
+#### 🪐 Solar System Simulation (`WindowsFormsApplication9.cs`)
+
+An interactive animation demonstrating planetary motion and orbital trajectories.
+
 <p align="center">
   <img src="access/Screenshot_18.png" width="700">
+  <br>
+  <sub><i>Yellow arrows indicate the direction of orbital movement.</i></sub>
 </p>
 
 ---

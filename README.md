@@ -32,10 +32,15 @@ A collection of 3 C# Windows Forms projects demonstrating GDI+ rendering, custom
 
 ## 🖼️ Screenshots
 
-####  Geometric Primitives WindowsFormsApp4.cs 
+#### 📐 Geometric Primitives (`WindowsFormsApp4.cs`)
+
+Allows drawing filled or outlined shapes (squares, circles, ellipses) with custom dimensions.
+
 <p align="center">
-  <img src="access/Screenshot_9.png" width="550"/>
+  <img src="access/Screenshot_9.png" width="700">
 </p>
+
+* **Flexible Input:** Enter width and height parameters. If only a single value is entered (e.g., `130`), it is automatically used as the uniform dimension for squares and circles.
 
 <table align="center">
   <tr>
@@ -71,10 +76,19 @@ An interactive animation demonstrating planetary motion and orbital trajectories
 
 ---
 
-####  Star Shape Generator  WindowsFormsApp5.cs
+#### ⭐ Star Shape Generator (`WindowsFormsApp5.cs`)
+
+Generates customizable multi-pointed star shapes using polar coordinate math.
+
 <p align="center">
   <img src="access/Screenshot_19.png" width="700">
 </p>
+
+* **Parameters:**
+  * **Center ($X, Y$):** Sets the position on the canvas.
+  * **Inner & Outer Radii:** Controls point depth and length.
+  * **Vertex Count:** Configures the number of star points.
+  * **Color Picker:** Allows selecting a custom outline color.
 
 ---
 

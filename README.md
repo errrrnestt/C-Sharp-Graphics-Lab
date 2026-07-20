@@ -58,14 +58,14 @@ A collection of 3 C# Windows Forms projects demonstrating GDI+ rendering, custom
 
 ---
 
-###  Solar System Simulation WindowsFormsApplication9.cs
+####  Solar System Simulation WindowsFormsApplication9.cs
 <p align="center">
   <img src="access/Screenshot_18.png" width="700">
 </p>
 
 ---
 
-###  Star Shape Generator  WindowsFormsApp5.cs
+####  Star Shape Generator  WindowsFormsApp5.cs
 <p align="center">
   <img src="access/Screenshot_19.png" width="700">
 </p>

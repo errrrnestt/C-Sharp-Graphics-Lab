@@ -1,6 +1,7 @@
+> ℹ️ **Note:** The original Form Designer file (`.Designer.cs`) was lost. To ensure the code runs seamlessly, step-by-step setup instructions and UI component naming requirements have been embedded directly into the `.cs` source code.
+> 
 # 🎨 C# WinForms Graphics & Simulation Labs
-
-
+C# WinForms lab project covering 2D graphics and animation. Includes geometric primitives drawing, star shape generation, and a real-time solar system simulation with planetary orbit trajectories.
 ## 📌 Overview
 
 A collection of 3 C# Windows Forms projects demonstrating GDI+ rendering, custom shape plotting, and orbit physics:

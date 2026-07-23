@@ -1,15 +1,17 @@
 
-# 💻 Lab 6: C# WinForms GUI & Linear/Branching Algorithms
-
-<p align="center">
-  🎓 <i>Visual Studio C# Windows Forms lab covering UI component controls, branching logic, and interactive mathematical modeling.</i>
-</p>
-
----
+# 💻 Lab6: C# WinForms GUI & Linear/Branching Algorithms
 
 ## 📌 Overview
 
 This laboratory assignment includes 3 C# WinForms applications demonstrating event-driven UI, state management, and math algorithm implementation:
+
+```text
+lab6/
+├── 📂 access/             # Screenshots (2.jpg – 6.jpg)
+├── 📄 Form1.cs            # Piecewise math calculator logic
+├── 📄 Form2.cs            # Quadratic equation solver logic
+└── 📄 Form3.cs            # Currency exchange simulator logic
+```
 
 1. **Math Expression Evaluator (`Form1.cs`)** — Computes piecewise mathematical equations with dynamic base function selection $f(x) \in \{\sin(x), x^2, e^x\}$.
 2. **Quadratic Equation Solver (`Form2.cs`)** — Solves $ax^2 + bx + c = 0$ and handles real roots via discriminant calculation.
@@ -23,7 +25,7 @@ This laboratory assignment includes 3 C# WinForms applications demonstrating eve
 Evaluates target formulas (#17, #15, or #13) based on input variables ($X, Y, Z$) and active function logic:
 
 <p align="center">
-  <img src="lab6/access/2.jpg" width="600" />
+  <img src="lab6/access/2.png" width="600" />
 </p>
 
 * **Function Chooser:** Toggle $f(x)$ dynamically between $\sin(x)$, $x^2$, and $e^x$ using radio buttons.
@@ -35,7 +37,7 @@ Evaluates target formulas (#17, #15, or #13) based on input variables ($X, Y, Z$
 Calculates the roots of $ax^2 + bx + c = 0$:
 
 <p align="center">
-  <img src="lab6/access/6.jpg" width="450" />
+  <img src="lab6/access/6.png" width="450" />
 </p>
 
 * **Logic:** Evaluates Discriminant ($D = b^2 - 4ac$).
@@ -47,22 +49,13 @@ Calculates the roots of $ax^2 + bx + c = 0$:
 Simulates exchange booth operations between USD and UAH:
 
 <p align="center">
-  <img src="access/5.jpg" width="450" />
+  <img src="access/5.png" width="450" />
 </p>
 
 * **Interactive UI:** Highlights the active rate box in gold and changes directional arrow indicators (`<` / `>`) based on exchange direction (Buy/Sell).
 * **Automated Calculation:** Multiplies selected currency rate by target amount.
 
 ---
-
-## 📂 Repository Structure
-
-```text
-lab6/
-├── 📂 access/             # Screenshots (2.jpg – 6.jpg)
-├── 📄 Form1.cs            # Piecewise math calculator logic
-├── 📄 Form2.cs            # Quadratic equation solver logic
-└── 📄 Form3.cs            # Currency exchange simulator logic
 
 > ℹ️ **Note:** The original Form Designer file (`.Designer.cs`) was lost. To ensure the code runs seamlessly, step-by-step setup instructions and UI component naming requirements have been embedded directly into the `.cs` source code.
 > 
@@ -79,17 +72,7 @@ A collection of 3 C# Windows Forms projects demonstrating GDI+ rendering, custom
 ├── 📂 AutoMorphological/        # AutoMorphological processing lab
 ├── 📂 access/                   # Screenshots for main README
 ├── 📂 lab22/                    # Lab 22 C# WinForms project
-│   ├── 📂 access/               # Screenshots for Lab 22
-│   ├── 📄 Class1.cs             # Helper classes / data logic
-│   ├── 📄 Form2.cs              # Lab UI Form
-│   ├── 📄 Lab22First.cs         # First assignment code
-│   └── 📄 Lab22Second.cs        # Second assignment code
 ├── 📂 lab6/                     # Lab 6 C# WinForms project
-│   ├── 📂 access/               # Screenshots (1.png – 6.png)
-│   ├── 📄 Form1.cs              # Lab 6 Form 1
-│   ├── 📄 Form2.cs              # Lab 6 Form 2
-│   └── 📄 Form3.cs              # Lab 6 Form 3
-├── 📄 README.md                 # Project documentation> ℹ️ **Note:** The original Form Designer file (`.Designer.cs`) was lost. To ensure the code runs seamlessly, step-by-step setup instructions and UI component naming requirements have been embedded directly into the `.cs` source code.
 ├── 📄 WindowsFormsApp4.cs       # Graphic Primitives
 ├── 📄 WindowsFormsApp5.cs       # Star Shape Generator
 └── 📄 WindowsFormsApplication9.cs # Solar System Simulation

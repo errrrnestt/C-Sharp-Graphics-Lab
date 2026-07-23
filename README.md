@@ -1,3 +1,69 @@
+
+# 💻 Lab 6: C# WinForms GUI & Linear/Branching Algorithms
+
+<p align="center">
+  🎓 <i>Visual Studio C# Windows Forms lab covering UI component controls, branching logic, and interactive mathematical modeling.</i>
+</p>
+
+---
+
+## 📌 Overview
+
+This laboratory assignment includes 3 C# WinForms applications demonstrating event-driven UI, state management, and math algorithm implementation:
+
+1. **Math Expression Evaluator (`Form1.cs`)** — Computes piecewise mathematical equations with dynamic base function selection $f(x) \in \{\sin(x), x^2, e^x\}$.
+2. **Quadratic Equation Solver (`Form2.cs`)** — Solves $ax^2 + bx + c = 0$ and handles real roots via discriminant calculation.
+3. **Currency Exchange Simulator (`Form3.cs`)** — Interactive currency converter with dynamic UI focus highlighting and direction indicators.
+
+---
+
+## 🖼️ Application Modules
+
+### 1️⃣ Piecewise Function Evaluator (`Form1.cs`)
+Evaluates target formulas (#17, #15, or #13) based on input variables ($X, Y, Z$) and active function logic:
+
+<p align="center">
+  <img src="lab6/access/2.jpg" width="600" />
+</p>
+
+* **Function Chooser:** Toggle $f(x)$ dynamically between $\sin(x)$, $x^2$, and $e^x$ using radio buttons.
+* **Equation Selection:** Switch between piecewise branches using controls.
+
+---
+
+### 2️⃣ Quadratic Equation Solver (`Form2.cs`)
+Calculates the roots of $ax^2 + bx + c = 0$:
+
+<p align="center">
+  <img src="lab6/access/6.jpg" width="450" />
+</p>
+
+* **Logic:** Evaluates Discriminant ($D = b^2 - 4ac$).
+* **Root Output:** Displays $X_1$ and $X_2$ for $D > 0$, single root for $D = 0$, or an alert notification if $D < 0$.
+
+---
+
+### 3️⃣ Currency Exchange Simulator (`Form3.cs`)
+Simulates exchange booth operations between USD and UAH:
+
+<p align="center">
+  <img src="access/5.jpg" width="450" />
+</p>
+
+* **Interactive UI:** Highlights the active rate box in gold and changes directional arrow indicators (`<` / `>`) based on exchange direction (Buy/Sell).
+* **Automated Calculation:** Multiplies selected currency rate by target amount.
+
+---
+
+## 📂 Repository Structure
+
+```text
+lab6/
+├── 📂 access/             # Screenshots (2.jpg – 6.jpg)
+├── 📄 Form1.cs            # Piecewise math calculator logic
+├── 📄 Form2.cs            # Quadratic equation solver logic
+└── 📄 Form3.cs            # Currency exchange simulator logic
+
 > ℹ️ **Note:** The original Form Designer file (`.Designer.cs`) was lost. To ensure the code runs seamlessly, step-by-step setup instructions and UI component naming requirements have been embedded directly into the `.cs` source code.
 > 
 # 🎨 C# WinForms Graphics & Simulation Labs
